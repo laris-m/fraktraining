@@ -1,6 +1,6 @@
-import { Asset } from 'contentful';
+import { Asset } from "contentful";
 
-export interface IMovie {
+export interface Movie {
   title: string;
   slug: string;
   image: Asset;
