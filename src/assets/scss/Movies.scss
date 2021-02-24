@@ -1,0 +1,40 @@
+.movies {
+  width: 100%;
+  text-align: center;
+}
+
+.movies-table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #292d34;
+    color: white;
+  }
+
+  .movie-link {
+    background-color: white;
+    color: black;
+    border: 2px solid #292d34;
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .movie-link:hover {
+    background-color: #292d34;
+    color: white;
+  }
+}
